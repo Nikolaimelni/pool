@@ -14,7 +14,9 @@ export const collisionFriction = 0.99;
 // Ball radius for large screens
 export const largeBallRadius = 30; 
 // Ball radius for small screens
-export const smallBallRadius = 20; 
+export const smallBallRadius = 20;
+//border
+export const borderThickness = 15;
 
 export const getRandomColor = (): string => {
   const letters = '0123456789ABCDEF';

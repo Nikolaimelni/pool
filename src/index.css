@@ -1,13 +1,34 @@
-body {
+body, html {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+canvas {
+  background-color: rgba(46, 139, 87, 0.2);
+}
+
+.delete-button {
+  background-color: #f86262;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  margin-top: 5px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.delete-button:hover {
+  background-color: #f62a2a;
 }
